@@ -38,6 +38,12 @@ def segmentos(funcion):
     
     return segmentos
 
+def fourier(f, o):
+    n = 0
+    for i in range(0, len(f)):
+        n += (f[i]*np.e**(-1j*i))
+    return n
+
 # calcula la matriz de espectro
 def espectro(segmentos):
     def E(i, j):
