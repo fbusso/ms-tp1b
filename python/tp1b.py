@@ -349,3 +349,15 @@ f = [
 ]
 
 segmentos = segmentos(f)
+
+def E(i, j):
+    return 0.1*abs(fourier(segmentos[i-1], j)) + 0.8* abs(fourier(segmentos[i], j)) + 0.1*abs(fourier(segmentos[i+1], j))
+
+matriz = []
+for i in range(1, len(segmentos)-1):
+    arr = []
+    for j in range(1, len(segmentos)-1):
+        arr.append(E(i, j))
+    matriz.append(arr)
+
+print(matriz)
