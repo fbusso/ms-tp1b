@@ -25,15 +25,12 @@ def segmentos(funcion):
     for valor in conv:
         g.append(valor/maximo)
 
-    while (inicio + longitud) < len(funcion):
+    while (inicio + longitud) <= len(funcion):
         aux = muestrear(funcion, inicio, longitud)
         muestra = []
 
-        for i in range(0, len(aux)):
-            try:
-                muestra.append(aux[i]*g[i+7])
-            except IndexError:
-                muestra.append(0)
+        for i in range(0, len(g)-7):
+            muestra.append(aux[i]*g[i+7])
 
         segmentos.append(muestra)
         inicio += distancia
@@ -346,9 +343,7 @@ f = [
     -0.52937573,
 ]
 
-#para la transformada de fourier de cada segmento se suman sus valores
 segmentos = segmentos(f)
 
-#transformada de cada segmento
 for segmento in segmentos:
-    print(np.sum(segmento))
+    print(segmento)
