@@ -8,6 +8,7 @@ def muestrear(funcion, inicio, longitud):
 
     return muestreo
 
+# calcula los segmentos
 def segmentos(funcion):
     segmentos = []
     inicio = 0
@@ -37,11 +38,21 @@ def segmentos(funcion):
     
     return segmentos
 
-def fourier(f, o):
-    n = 0
-    for i in range(0, len(f)):
-        n += (f[i]*np.e**(-1j*i))
-    return n
+# calcula la matriz de espectro
+def espectro(segmentos):
+    def E(i, j):
+        return 0.1*abs(fourier(segmentos[i-1], j)) + 0.8* abs(fourier(segmentos[i], j)) + 0.1*abs(fourier(segmentos[i+1], j))
+
+    matriz = []
+    for i in range(1, len(segmentos)-1):
+        arr = []
+        for j in range(1, len(segmentos)-1):
+            arr.append(E(i, j))
+        #sacar comentario para redondear los valores
+        #matriz.append(np.round_(arr, 3))
+        matriz.append(arr)
+
+    return matriz
 
 # definicion de f(t)
 f = [
@@ -348,16 +359,9 @@ f = [
     -0.52937573,
 ]
 
+# calculo de los segmentos
 segmentos = segmentos(f)
 
-def E(i, j):
-    return 0.1*abs(fourier(segmentos[i-1], j)) + 0.8* abs(fourier(segmentos[i], j)) + 0.1*abs(fourier(segmentos[i+1], j))
-
-matriz = []
-for i in range(1, len(segmentos)-1):
-    arr = []
-    for j in range(1, len(segmentos)-1):
-        arr.append(E(i, j))
-    matriz.append(arr)
-
+# calculo de la matriz de espectro
+matriz = espectro(segmentos)
 print(matriz)
