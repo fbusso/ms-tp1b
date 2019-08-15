@@ -8,8 +8,40 @@ def muestrear(funcion, inicio, longitud):
 
     return muestreo
 
-# definicion de f(t)
+def segmentos(funcion):
+    segmentos = []
+    inicio = 0
+    longitud = 30
+    distancia = 10
 
+    r = np.empty(15)
+    r.fill(1)
+
+    #determina g[n]
+    conv = np.convolve(r, r, mode='full')
+    maximo = max(conv)
+
+    g = []
+    for valor in conv:
+        g.append(valor/maximo)
+
+    while (inicio + longitud) < len(funcion):
+        aux = muestrear(funcion, inicio, longitud)
+        muestra = []
+
+        for i in range(0, len(aux)):
+            try:
+                muestra.append(aux[i]*g[i])
+            except IndexError:
+                muestra.append(0)
+
+        segmentos.append(muestra)
+        inicio += distancia
+    
+    return segmentos
+
+
+# definicion de f(t)
 f = [
      0.60399859,
      0.14554001,
@@ -314,34 +346,9 @@ f = [
     -0.52937573,
 ]
 
-# definicion de R[n]
-r = [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
-]
+#para la transformada de fourier de cada segmento se suman sus valores
+segmentos = segmentos(f)
 
-# determina g[n]
-conv = np.convolve(r, r, mode='full')
-maximo = max(conv)
-
-g = []
-for valor in conv:
-    g.append(valor/maximo)
-    
-
-
-
-
+#transformada de cada segmento
+for segmento in segmentos:
+    print(np.sum(segmento))
