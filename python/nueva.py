@@ -344,6 +344,6 @@ f = [
 ]
 
 segmentos = segmentos(f)
-
 for segmento in segmentos:
-    print(segmento)
+    fourier = np.fft.fft(segmento)
+    print(fourier)
