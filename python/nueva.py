@@ -31,7 +31,7 @@ def segmentos(funcion):
 
         for i in range(0, len(aux)):
             try:
-                muestra.append(aux[i]*g[i])
+                muestra.append(aux[i]*g[i+7])
             except IndexError:
                 muestra.append(0)
 
