@@ -1,4 +1,5 @@
 import numpy as np
+import png
 from openpyxl import Workbook
 
 # muestrea una funcion f
@@ -80,16 +81,71 @@ def guardar(matriz, filename):
     wb.save(filename)
 
 def espectroConstante():
-    segmentosConstantes = []
+    matrizEspectroConstante = []
+    n = 0.0
+    k = (2*np.pi)/60
 
     for i in range(0, 28):
-        fila = np.empty(15)
-        fila.fill(1)
-        segmentosConstantes.append(fila)
+        fila = []
+        for j in range(0, 28):
+            fila.append(np.sin(k*n))
+            n += 0.1
 
-    print(segmentosConstantes[0])
-    matrizConstante = espectro(segmentosConstantes)
-    guardar(matrizConstante, "espectroConstante.xlsx")
+        matrizEspectroConstante.append(fila)
+
+    espectroConstante = espectro(matrizEspectroConstante)
+    guardar(espectroConstante, "espectroConstante.xlsx")
+
+def espectroVariable():
+    matrizEspectroVariable = []
+    n = 0.0
+    k = (2*np.pi)/60
+
+    for i in range(0, 29):
+        fila = []
+        for j in range(0, 29):
+            fila.append(np.sin(k*n*n))
+            n += 0.1
+
+        matrizEspectroVariable.append(fila)
+
+    espectroVariable = espectro(matrizEspectroVariable)
+    guardar(espectroVariable, "espectroVariable.xlsx")
+
+def expandir(matriz):
+    matriznp = np.matrix(matriz)
+    maxValue = np.amax(matriznp)
+    minValue = np.amin(matriznp)
+
+    matrizExpandida = []
+
+    for fila in matriz:
+        filaExpandida = []
+        for valor in fila:
+            filaExpandida.append(int(((valor-minValue)/(maxValue-minValue))*255))
+        matrizExpandida.append(filaExpandida)
+
+    return matrizExpandida
+
+def reescalar(matriz, factor):
+    matrizAux = np.matrix(matriz)
+    matrizAux = np.repeat(matrizAux, factor, axis=1)
+    matrizAux = np.repeat(matrizAux, factor, axis=0)
+
+    matrizReescalada = []
+    for fila in matrizAux:
+        row = []
+        for valor in fila:
+            row.append(valor)
+        matrizReescalada.append(row)
+
+    return matrizReescalada
+
+def guardarImagen(matriz):
+    matriz = expandir(matriz)
+    matriz = reescalar(matriz, 4)
+    #guardar(matriz, "escalda.xlsx")
+    png.from_array(matriz, 'L').save("test.png")
 
 # definicion de f(t)
 f = [
@@ -402,6 +458,27 @@ segmentos = segmentos(f)
 # calculo de la matriz de espectro
 matriz = espectro(segmentos)
 
-espectroConstante()
+#guardarImagen(matriz)
+
+#matrizExpandida = expandir(matriz)
+#png.from_array(matrizExpandida, 'L').save("test.png")
 
 
+
+m = [[1, 2], [3, 4]]
+npm = np.matrix(m)
+npm = np.repeat(npm, 4, axis=1)
+npm = np.repeat(npm, 4, axis=0)
+#print(np.squeeze(npm))
+
+#lista.append(new_arr)
+#print(type(arr))
+
+#png.from_array(lis, 'L').save("test.png")
+#guardar(matriz, "espectro.xlsx")
+
+
+#espectroConstante()
+#espectroVariable()
+#arr = matriz[0]
+#new_arr = ((arr - arr.min()) * (1/(arr.max() - arr.min()) * 255).astype('uint8')
