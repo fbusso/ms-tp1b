@@ -30,7 +30,7 @@ def segmentos(funcion):
         aux = muestrear(funcion, inicio, longitud)
         muestra = []
 
-        for i in range(0, len(g)-7):
+        for i in range(0, int(len(g)/2)):
             muestra.append(aux[i]*g[i+7])
 
         segmentos.append(muestra)
@@ -38,6 +38,7 @@ def segmentos(funcion):
     
     return segmentos
 
+# evalua la transformada discreta de fourier en un valor o
 def fourier(f, o):
     n = 0
     for i in range(0, len(f)):
@@ -365,9 +366,21 @@ f = [
     -0.52937573,
 ]
 
+# guarda la matriz de espectro
+def guardarMatriz(matriz):
+    f = open("espectro.txt", "w+")
+    
+    for fila in matriz:
+        for valor in fila:
+            f.write(str(valor) + ", ")
+        f.write("\n")
+
+    f.close()
+
 # calculo de los segmentos
 segmentos = segmentos(f)
 
 # calculo de la matriz de espectro
 matriz = espectro(segmentos)
-print(matriz)
+
+#guardarMatriz(matriz)
