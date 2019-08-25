@@ -1,5 +1,5 @@
 import numpy as np
-import png
+from cv2 import imwrite
 from openpyxl import Workbook
 
 # muestrea una funcion f
@@ -80,38 +80,6 @@ def guardar(matriz, filename):
 
     wb.save(filename)
 
-def espectroConstante():
-    matrizEspectroConstante = []
-    n = 0.0
-    k = (2*np.pi)/60
-
-    for i in range(0, 28):
-        fila = []
-        for j in range(0, 28):
-            fila.append(np.sin(k*n))
-            n += 0.1
-
-        matrizEspectroConstante.append(fila)
-
-    espectroConstante = espectro(matrizEspectroConstante)
-    guardar(espectroConstante, "espectroConstante.xlsx")
-
-def espectroVariable():
-    matrizEspectroVariable = []
-    n = 0.0
-    k = (2*np.pi)/60
-
-    for i in range(0, 29):
-        fila = []
-        for j in range(0, 29):
-            fila.append(np.sin(k*n*n))
-            n += 0.1
-
-        matrizEspectroVariable.append(fila)
-
-    espectroVariable = espectro(matrizEspectroVariable)
-    guardar(espectroVariable, "espectroVariable.xlsx")
-
 def expandir(matriz):
     matriznp = np.matrix(matriz)
     maxValue = np.amax(matriznp)
@@ -128,24 +96,44 @@ def expandir(matriz):
     return matrizExpandida
 
 def reescalar(matriz, factor):
-    matrizAux = np.matrix(matriz)
-    matrizAux = np.repeat(matrizAux, factor, axis=1)
-    matrizAux = np.repeat(matrizAux, factor, axis=0)
+    matrizAux = np.repeat(np.matrix(matriz), factor, axis=1)
+    return np.repeat(matrizAux, factor, axis=0)
 
-    matrizReescalada = []
-    for fila in matrizAux:
-        row = []
-        for valor in fila:
-            row.append(valor)
-        matrizReescalada.append(row)
+def guardarImagen(matriz, filename):
+    matriz = reescalar(expandir(matriz), 100)
+    imwrite(filename, matriz)
 
-    return matrizReescalada
+def espectroConstante():
+    matriz = []
+    n = 0.0
+    k = (2*np.pi)/60
 
-def guardarImagen(matriz):
-    matriz = expandir(matriz)
-    matriz = reescalar(matriz, 4)
-    #guardar(matriz, "escalda.xlsx")
-    png.from_array(matriz, 'L').save("test.png")
+    for i in range(0, 28):
+        fila = []
+        for j in range(0, 28):
+            fila.append(np.sin(k*n))
+            n += 0.1
+        matriz.append(fila)
+
+    e = espectro(matriz)
+    guardarImagen(e, 'constante.jpg')
+    #guardar(espectroConstante, "espectroConstante.xlsx")
+
+def espectroVariable():
+    matrizEspectroVariable = []
+    n = 0.0
+    k = (2*np.pi)/60
+
+    for i in range(0, 29):
+        fila = []
+        for j in range(0, 29):
+            fila.append(np.sin(k*n*n))
+            n += 0.1
+        matrizEspectroVariable.append(fila)
+
+    e = espectro(matrizEspectroVariable)
+    guardarImagen(e, 'variable.jpg')
+    #guardar(espectroVariable, "espectroVariable.xlsx")
 
 # definicion de f(t)
 f = [
@@ -457,28 +445,11 @@ segmentos = segmentos(f)
 
 # calculo de la matriz de espectro
 matriz = espectro(segmentos)
+# guardado de la matriz en una imagen
+guardarImagen(matriz, 'color_img.jpg')
 
-#guardarImagen(matriz)
-
-#matrizExpandida = expandir(matriz)
-#png.from_array(matrizExpandida, 'L').save("test.png")
-
-
-
-m = [[1, 2], [3, 4]]
-npm = np.matrix(m)
-npm = np.repeat(npm, 4, axis=1)
-npm = np.repeat(npm, 4, axis=0)
-#print(np.squeeze(npm))
-
-#lista.append(new_arr)
-#print(type(arr))
-
-#png.from_array(lis, 'L').save("test.png")
-#guardar(matriz, "espectro.xlsx")
-
-
-#espectroConstante()
-#espectroVariable()
-#arr = matriz[0]
-#new_arr = ((arr - arr.min()) * (1/(arr.max() - arr.min()) * 255).astype('uint8')
+# calculo y guardado de las matrices 
+# para señales de frecuencia constante
+# y variable
+espectroConstante()
+espectroVariable()
