@@ -4,8 +4,11 @@ from openpyxl import Workbook
 # muestrea una funcion f
 def muestrear(funcion, inicio, longitud):
     muestreo = []
-    for i in range(inicio, inicio + longitud):        
-        muestreo.append(funcion[i])
+    for i in range(inicio, inicio + longitud):    
+        try:    
+            muestreo.append(funcion[i])
+        except IndexError:
+            muestreo.append(0)
 
     return muestreo
 
@@ -29,7 +32,8 @@ def segmentos(funcion):
 
     mitad = int(len(g)/2)
 
-    while (inicio + longitud) <= len(funcion):
+    #while (inicio + longitud) <= len(funcion):
+    while inicio <= len(funcion):
         aux = muestrear(funcion, inicio, longitud)
         muestra = []
 
