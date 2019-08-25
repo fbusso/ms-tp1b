@@ -70,9 +70,8 @@ def guardar(matriz, filename):
     wb = Workbook()
     ws = wb.active
 
-    size = len(matriz)
-    for i in range(0, size):
-        ws.append(matriz[i])
+    for fila in matriz:
+        ws.append(fila)
 
     wb.save(filename)
 
@@ -398,7 +397,6 @@ segmentos = segmentos(f)
 
 # calculo de la matriz de espectro
 matriz = espectro(segmentos)
-
-guardar(matriz, "espectro.xlsx").
+guardar(matriz, "espectro.xlsx")
 
 
