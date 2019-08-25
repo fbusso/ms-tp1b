@@ -401,6 +401,7 @@ segmentos = segmentos(f)
 
 # calculo de la matriz de espectro
 matriz = espectro(segmentos)
-guardar(matriz, "espectro.xlsx")
+
+espectroConstante()
 
 
