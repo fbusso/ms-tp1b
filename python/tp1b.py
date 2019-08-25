@@ -1,4 +1,5 @@
 import numpy as np
+from openpyxl import Workbook
 
 # muestrea una funcion f
 def muestrear(funcion, inicio, longitud):
@@ -26,12 +27,14 @@ def segmentos(funcion):
     for valor in conv:
         g.append(valor/maximo)
 
+    mitad = int(len(g)/2)
+
     while (inicio + longitud) <= len(funcion):
         aux = muestrear(funcion, inicio, longitud)
         muestra = []
 
-        for i in range(0, int(len(g)/2)):
-            muestra.append(aux[i]*g[i+7])
+        for i in range(0, mitad+1):
+            muestra.append(aux[i]*g[i+mitad])
 
         segmentos.append(muestra)
         inicio += distancia
@@ -39,11 +42,12 @@ def segmentos(funcion):
     return segmentos
 
 # evalua la transformada discreta de fourier en un valor o
-def fourier(f, o):
-    n = 0
-    for i in range(0, len(f)):
-        n += (f[i]*np.e**(-1j*i))
-    return n
+def fourier(f, k):
+    X = 0
+    N = len(f)
+    for n in range(0, N-1):
+        X += (f[n]*np.e**((-1j*2*np.pi*k*n)/N))
+    return X
 
 # calcula la matriz de espectro
 def espectro(segmentos):
@@ -60,6 +64,29 @@ def espectro(segmentos):
         matriz.append(arr)
 
     return matriz
+
+# guarda la matriz de espectro en una hoja de calculo
+def guardar(matriz, filename):
+    wb = Workbook()
+    ws = wb.active
+
+    size = len(matriz)
+    for i in range(0, size):
+        ws.append(matriz[i])
+
+    wb.save(filename)
+
+def espectroConstante():
+    segmentosConstantes = []
+
+    for i in range(0, 28):
+        fila = np.empty(15)
+        fila.fill(1)
+        segmentosConstantes.append(fila)
+
+    print(segmentosConstantes[0])
+    matrizConstante = espectro(segmentosConstantes)
+    guardar(matrizConstante, "espectroConstante.xlsx")
 
 # definicion de f(t)
 f = [
@@ -366,21 +393,12 @@ f = [
     -0.52937573,
 ]
 
-# guarda la matriz de espectro
-def guardarMatriz(matriz):
-    f = open("espectro.txt", "w+")
-    
-    for fila in matriz:
-        for valor in fila:
-            f.write(str(valor) + ", ")
-        f.write("\n")
-
-    f.close()
-
 # calculo de los segmentos
 segmentos = segmentos(f)
 
 # calculo de la matriz de espectro
 matriz = espectro(segmentos)
 
-#guardarMatriz(matriz)
+guardar(matriz, "espectro.xlsx").
+
+
