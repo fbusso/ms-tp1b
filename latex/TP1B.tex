@@ -113,6 +113,69 @@
 
 
 
+\section{Sistema masa-resorte-amortiguador discreto}
+
+Como contrapartida de la ecuación diferencial que modela el comportamiento del sistema en estudio, se desarrolla la ecuación en diferencias contemplando las siguientes igualdades:
+
+$$y'_{(t)} \approx \frac{y_{[n+1]}-y_{[n-1]}}{2T}$$
+
+$$y''_{(t)} \approx \frac{y_{[n+2]} - 2 y_{[n]} + y_{[n-2]}}{4T^2}$$
+
+siendo $T$ el tiempo entre muestras. Si bien no es posible interpretar la derivada de una función discreta en el tiempo, las expresiones mostradas son una aproximación.
+
+
+Por lo tanto, para aproximar la ecuación diferencial que simula al sistema del amortiguador, debemos reemplazar todas las apariciones de $y'$ e $y''$. 
+
+Siendo el sistema contínuo del amortiguador:
+
+$$k_3 y''_{(t)} + k_2 y'_{(t)} + k_1 y_{(t)} = x_{(t)}$$
+
+Nos queda que la ecuación en diferencia que aproxima al modelado continuo del sistema sería:
+
+$$k_1 y_{[n]} + k_2 \left(\frac{y_{[n+1]}-y_{[n-1]}}{2T}\right) + k_3 \left(\frac{y_{[n+2]} - 2 y_{[n]} + y_{[n-2]}}{4T^2}\right)= x_{[n]}$$
+
+A partir de esta ecuación en diferencias se puede calcular la función de tranferencia del sistema, quedando la misma:
+
+$$H_{(z)} = \frac{1}{z^2 \left(\frac{k_3}{4T^2}\right) + z \left(\frac{k_2}{2T}\right) + \left(k_1-\frac{2k_3}{4T^2}\right) + z^{-1} \left(\frac{k_2}{2T}\right) + z^{-2} \left(\frac{k_3}{2T}\right)} $$
+
+
+Reemplazando los valores de $k_1$, $k_2$, y $k_3$ por los correspondientes a la entrega anterior, y definiendo $T=0.1$ obtendríamos una discretización del sistema estudiado, obteniendo valores con una frecuencia de 10 Hz. De esta manera podemos reconstruir cualuier señal con un ancho de banda menor a 5 Hz, debido a que el amortiguador es un sistema mecánico suponemos que  no existirán variaciones de mayor frecuencia que esta.
+
+$$ k_1 =1$$
+$$k_2 =10$$
+$$k_3=1$$
+
+De esta manera contrastar la respuesta del sistema contínuo y la discretización resultante en este ejercicio.
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.7\textwidth]{amortiguador_entrada.png}
+            \caption{Entrada del sistema.}
+            \label{entrada}
+        \end{figure}
+        
+         \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.7\textwidth]{amortiguador_10}
+            \caption{Salida resultante de simular el sistema con un sistema LTI contínuo.}
+            \label{sistemaContinuo}
+        \end{figure}
+        
+              \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.7\textwidth]{discreto.png}
+            \caption{Salida resultante de simular el sistema con un sistema LTI discreto.}
+            \label{sistemaDiscreto}
+        \end{figure}
+
+Como se observan en las imágenes, la discretización elegida no resulta útil para el estudio del sistema, ya que no existe una clara relación con su contraparte contínua. Esto deja en evidencia que el muestreo elegido no fue adecuado. Posiblemente se logren mejores aproximaciones utilizando frecuencias de muestreo mayores.
+
+
+
+
+
+
+
 
     
 \end{document}
