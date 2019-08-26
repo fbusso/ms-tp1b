@@ -99,7 +99,7 @@
         \begin{figure}[h!]
             \centering
             \includegraphics[width=40mm]{variable}
-            \caption{Representación gráfica de una señal con variación de frecuencia lineal}
+            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y[n] = sen(\frac{2\pi}{60}n^2)$}
             \label{imagen3}
         \end{figure}
 
@@ -110,8 +110,25 @@
         Una vez hecho esto, pudimos conjeturar que los valores presentes en la matriz de espectro representan la concentración de 
         energía en determinadas frecuencias de los valores que conforman los segmentos. Además, se pudo concluir que la señal propuesta 
         se asemeja a una función que varía linealmente en frecuencia.
+        
+        Analizando mas en detalle matrices de espectro con funciones de frecuencia linealmente variable, concluimos que a partir del muestreo de distintas funciones se observa un patrón, en el caso de funciones con frecuencias aptas para el muestreo (bajas frecuencias) se observan dos lineas de frecuencias predominantes. 
+        
+        
+          \begin{figure}[h!]
+            \centering
+            \includegraphics[width=40mm]{variable15}
+            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y[n] = sen(\frac{2\pi}{15}n^2)$ }
+            \label{valor15}
+        \end{figure}
+        
+         \begin{figure}[h!]
+            \centering
+            \includegraphics[width=40mm]{variable5}
+            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y[n] = sen(\frac{2\pi}{5}n^2)$ }
+            \label{valor5}
+        \end{figure}
 
-
+Se puede observar desde la figura \ref{imagen3} hasta la \ref{valor5}, que a medida que aumentamos la frecuencia, las lineas predominantes se interceptan. En las imágenes \ref{valor15} y \ref{valor5} se produce alliasing por el efectodel muestreo de seales de alta frecuencia. por lo tanto analizando la matriz de espectro de la señal en estudio podemos determinar que se produce alliasing y en consecuencia la discretización de la señal no fue buena.
 
 \section{Sistema masa-resorte-amortiguador discreto}
 

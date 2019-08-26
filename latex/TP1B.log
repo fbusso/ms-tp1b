@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.29)  25 AUG 2019 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.29)  25 AUG 2019 23:51
 entering extended mode
 **./TP1B.tex
 (TP1B.tex
@@ -759,50 +759,63 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 109.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
  [3 <./color_img.jpg> <./constante.jpg> <./variable.jpg>]
-<amortiguador_entrada.png, id=29, 586.19pt x 274.02374pt>
+<variable15.jpg, id=29, 2710.125pt x 2710.125pt>
+File: variable15.jpg Graphic file (type jpg)
+<use variable15.jpg>
+Package pdftex.def Info: variable15.jpg  used on input line 119.
+(pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
+<variable5.jpg, id=30, 2710.125pt x 2710.125pt>
+File: variable5.jpg Graphic file (type jpg)
+<use variable5.jpg>
+Package pdftex.def Info: variable5.jpg  used on input line 126.
+(pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 145.
+(pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
+
+[4 <./variable15.jpg> <./variable5.jpg>]
+<amortiguador_entrada.png, id=35, 586.19pt x 274.02374pt>
 File: amortiguador_entrada.png Graphic file (type png)
 <use amortiguador_entrada.png>
-Package pdftex.def Info: amortiguador_entrada.png  used on input line 152.
+Package pdftex.def Info: amortiguador_entrada.png  used on input line 169.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<amortiguador_10.png, id=30, 586.19pt x 274.02374pt>
+<amortiguador_10.png, id=36, 586.19pt x 274.02374pt>
 File: amortiguador_10.png Graphic file (type png)
 <use amortiguador_10.png>
-Package pdftex.def Info: amortiguador_10.png  used on input line 159.
+Package pdftex.def Info: amortiguador_10.png  used on input line 176.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<discreto.png, id=31, 586.19pt x 274.02374pt>
+<discreto.png, id=37, 586.19pt x 274.02374pt>
 File: discreto.png Graphic file (type png)
 <use discreto.png>
-Package pdftex.def Info: discreto.png  used on input line 166.
+Package pdftex.def Info: discreto.png  used on input line 183.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 181.
+Package pdftex.def Info: logo.png  used on input line 198.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
-[4]
+[5 <./amortiguador_entrada.png>]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 181.
+Package pdftex.def Info: logo.png  used on input line 198.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
- [5 <./amortiguador_entrada.png> <./amortiguador_10.png> <./discreto.png>]
+ [6 <./amortiguador_10.png> <./discreto.png>]
 (TP1B.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 23755 strings out of 492895
- 604924 string characters out of 3133476
- 817910 words of memory out of 3000000
- 27266 multiletter control sequences out of 15000+200000
+ 23767 strings out of 492895
+ 605114 string characters out of 3133476
+ 815910 words of memory out of 3000000
+ 27276 multiletter control sequences out of 15000+200000
  6866 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,15n,136p,724b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -817,9 +830,9 @@ ts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TP1B.pdf (5 pages, 682816 bytes).
+Output written on TP1B.pdf (6 pages, 1014201 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
