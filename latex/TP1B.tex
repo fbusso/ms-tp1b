@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage[spanish]{babel}
 \usepackage{graphicx}
 \usepackage{mathtools}
 \usepackage{vmargin}
@@ -62,6 +63,55 @@
 \renewcommand{\contentsname}{Índice}
 \tableofcontents
 \newpage
+
+    \section{Transformada Discerta}
+        \paragraph{}
+        Una vez separada la función en segmentos y calculadas las Transformadas de Fourier en Tiempo Discreto de cada uno, 
+        se construyó la Matriz de Espectro E utilizando la formula propuesta. Posteriormente se determinaron los valores máximo y mínimo de dicha matriz 
+        y se construyó una nueva matriz de igual dimensión a la matriz de espectro, en la cuál se le asignó a cada posición de la misma un valor entre 0 y 255, 
+        mediante la siguiente fórmula:
+
+        \begin{equation}
+            V_{(i, j)}=\frac{E_{(i, j)}-m}{M-m}*255
+        \end{equation}
+
+        Donde \textit{M} representa al valor máximo de la Matriz de Espectro y \textit{m} al valor mínimo de la misma.
+        Esto se realizó para diferenciar gráficamente las frecuencias predominantes (zonas  blancas) 
+        de las frecuencias que aportan menos energía (zonas negras) a la señal final.
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=40mm]{color_img}
+            \caption{Representación gráfica de la Matriz de Espectro}
+            \label{imagen1}
+        \end{figure}
+
+        \paragraph{}
+        Lo mismo se realizó para una señal simple de frecuencia constante y para una señal con variación de frecuencia lineal.
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=40mm]{constante}
+            \caption{Representacion gráfica de una señal de frecuencia constante}
+            \label{imagen2}
+        \end{figure}
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=40mm]{variable}
+            \caption{Representación gráfica de una señal con variación de frecuencia lineal}
+            \label{imagen3}
+        \end{figure}
+
+        \paragraph{}
+        Este procesamiento de los datos fue realizado con el fin de poder analizar más intuitivamente la información presentada, 
+        pudiendo así contrastar los diferentes escenarios conocidos contra la señal en estudio e identificar a cuál se asemeja.
+        
+        Una vez hecho esto, pudimos conjeturar que los valores presentes en la matriz de espectro representan la concentración de 
+        energía en determinadas frecuencias de los valores que conforman los segmentos. Además, se pudo concluir que la señal propuesta 
+        se asemeja a una función que varía linealmente en frecuencia.
+
+
 
 
     
