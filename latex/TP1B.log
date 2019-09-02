@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.29)  25 AUG 2019 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.2)  2 SEP 2019 18:30
 entering extended mode
 **./TP1B.tex
 (TP1B.tex
 LaTeX2e <2018-12-01>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -19,29 +19,32 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/05/04 3.31 The Babel package
+) ("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
+Package: babel 2019/07/19 3.33 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/05/04 3.31 Babel switching mechanism
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\span
+ish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/05/04 3.31 Babel common definitions
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/07/19 3.33 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count89
 )
 \es@quottoks=\toks14
@@ -51,34 +54,40 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/mathtools\mathtools.sty
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtool
+s.sty"
 Package: mathtools 2019/07/31 v1.22 mathematical typesetting tools
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
@@ -91,27 +100,34 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/mathtools\mhsetup.sty
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.
+sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen108
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen109
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count94
@@ -166,56 +182,64 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen122
 \l_MT_below_shortintertext_sep=\dimen123
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/vmargin\vmargin.sty
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vmargin\vmargin.st
+y"
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \PaperWidth=\dimen124
 \PaperHeight=\dimen125
-) (C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgfplots\pgfplots.sty
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplots.revis
-ion.tex)
+)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.
+sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.revision.tex")
 Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\tikz.st
-y (C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfrcs.sty
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-c
-ommon.tex
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
+tikz.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
+cs.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common.tex"
 \pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen126
 \pgfutil@tempdimb=\dimen127
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-c
-ommon-lists.tex))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-l
-atex.def
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common-lists.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-latex.def"
 \pgfutil@abb=\box29
- (C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\everyshi.sty
+
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfrcs.co
-de.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+frcs.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
+.tex")
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
 ))
-Package: pgf 2019/05/09 v3.1.3 (3.1.3)
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgfcore.st
-y
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\pgfsys.st
-y
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys.
-code.tex
-Package: pgfsys 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+core.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
+fsys.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys.code.tex"
+Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.c
-ode.tex
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeysfi
-ltered.code.tex
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks24
 ))
 \pgf@x=\dimen128
@@ -239,33 +263,35 @@ ltered.code.tex
 \t@pgf@tokc=\toks27
 \pgf@sys@id@count=\count111
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgf.cfg"
+File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-
-pdftex.def
-File: pgfsys-pdftex.def 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-
-common-pdf.def
-File: pgfsys-common-pdf.def 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 )))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsyss
-oftpath.code.tex
-File: pgfsyssoftpath.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfsyssoftpath@smallbuffer@items=\count112
 \pgfsyssoftpath@bigbuffer@items=\count113
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsysp
-rotocol.code.tex
-File: pgfsysprotocol.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -279,18 +305,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcore.
-code.tex
-Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcore.code.tex"
+Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.t
-ex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathcalc.co
-de.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathutil.co
-de.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathparser.
-code.tex
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+calc.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+util.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+parser.code.tex"
 \pgfmath@dimen=\dimen138
 \pgfmath@count=\count114
 \pgfmath@box=\box30
@@ -298,33 +324,33 @@ code.tex
 \pgfmath@stack@operand=\toks29
 \pgfmath@stack@operation=\toks30
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.basic.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.trigonometric.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.random.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.comparison.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.base.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.round.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.misc.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
-ns.integerarithmetics.code.tex)))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfloat.c
-ode.tex
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.basic.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.trigonometric.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.random.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.comparison.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.base.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.round.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.misc.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.integerarithmetics.code.tex")))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+float.code.tex"
 \c@pgfmathroundto@lastzeros=\count115
 ))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfint.code.te
-x)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
-oints.code.tex
-File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@picminx=\dimen139
 \pgf@picmaxx=\dimen140
 \pgf@picminy=\dimen141
@@ -340,132 +366,134 @@ File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@zx=\dimen151
 \pgf@zy=\dimen152
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
-athconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@path@lastx=\dimen153
 \pgf@path@lasty=\dimen154
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
-athusage.code.tex
-File: pgfcorepathusage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@shorten@end@additional=\dimen155
 \pgf@shorten@start@additional=\dimen156
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcores
-copes.code.tex
-File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count116
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreg
-raphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgflinewidth=\dimen157
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoret
-ransformations.code.tex
-File: pgfcoretransformations.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@pt@x=\dimen158
 \pgf@pt@y=\dimen159
 \pgf@pt@temp=\dimen160
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreq
-uick.code.tex
-File: pgfcorequick.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreo
-bjects.code.tex
-File: pgfcoreobjects.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
-athprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorea
-rrows.code.tex
-File: pgfcorearrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfarrowsep=\dimen161
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcores
-hade.code.tex
-File: pgfcoreshade.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@max=\dimen162
 \pgf@sys@shading@range@num=\count117
 \pgf@shadingcount=\count118
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorei
-mage.code.tex
-File: pgfcoreimage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoree
-xternal.code.tex
-File: pgfcoreexternal.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfexternal@startupbox=\box34
 ))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorel
-ayers.code.tex
-File: pgfcorelayers.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoret
-ransparency.code.tex
-File: pgfcoretransparency.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
-atterns.code.tex
-File: pgfcorepatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorer
-df.code.tex
-File: pgfcorerdf.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulesh
-apes.code.tex
-File: pgfmoduleshapes.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfnodeparttextbox=\box35
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulepl
-ot.code.tex
-File: pgfmoduleplot.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp
--version-0-65.sty
-Package: pgfcomp-version-0-65 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@nodesepstart=\dimen163
 \pgf@nodesepend=\dimen164
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp
--version-1-18.sty
-Package: pgfcomp-version-1-18 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
 ))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgffor.sty
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfkeys.sty
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
+or.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+eys.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
+ty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+ffor.code.tex"
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.c
-ode.tex))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.t
-ex))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgffor.co
-de.tex
-Package: pgffor 2019/05/09 v3.1.3 (3.1.3)
-
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.t
-ex)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex")
 \pgffor@iter=\dimen165
 \pgffor@skip=\dimen166
 \pgffor@stack=\toks31
 \pgffor@toks=\toks32
 ))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz\
-tikz.code.tex
-Package: tikz 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz\tikz.code.tex"
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrar
-yplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@plot@mark@count=\count119
 \pgfplotmarksize=\dimen167
 )
@@ -473,8 +501,10 @@ File: pgflibraryplothandlers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \tikz@lasty=\dimen169
 \tikz@lastxsaved=\dimen170
 \tikz@lastysaved=\dimen171
-\tikzleveldistance=\dimen172
-\tikzsiblingdistance=\dimen173
+\tikz@lastmovetox=\dimen172
+\tikz@lastmovetoy=\dimen173
+\tikzleveldistance=\dimen174
+\tikzsiblingdistance=\dimen175
 \tikz@figbox=\box36
 \tikz@figbox@bg=\box37
 \tikz@tempbox=\box38
@@ -484,141 +514,134 @@ File: pgflibraryplothandlers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \tikznumberofcurrentchild=\count122
 \tikz@fig@count=\count123
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulema
-trix.code.tex
-File: pgfmodulematrix.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+odulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfmatrixcurrentrow=\count124
 \pgfmatrixcurrentcolumn=\count125
 \pgf@matrix@numberofcolumns=\count126
 )
 \tikz@expandcount=\count127
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplots.code.
-tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotscore.c
-ode.tex
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+score.code.tex"
 \t@pgfplots@toka=\toks33
 \t@pgfplots@tokb=\toks34
 \t@pgfplots@tokc=\toks35
-\pgfplots@tmpa=\dimen174
+\pgfplots@tmpa=\dimen176
 \c@pgfplots@coordindex=\count128
 \c@pgfplots@scanlineindex=\count129
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/sys\pgfplotssy
-sgeneric.code.tex))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/libs\pgfplotsl
-ibrary.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/oldpgfcompatib
-\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrar
-yfpu.code.tex)
-Package pgfplots: loading complementary arithmetics for your pgf version...
-
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/oldpgfcompatib
-\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/oldpgfcompatib
-\pgfplotsoldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count130
-))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsu
-til.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/liststructure\
-pgfplotsliststructure.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/liststructure\
-pgfplotsliststructureext.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/liststructure\
-pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count131
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgf
+plotssysgeneric.code.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pg
+fplotslibrary.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldpgfc
+ompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryfpu.code.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsutil.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsliststructure.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsliststructureext.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count130
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/liststructure\
-pgfplotsmatrix.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/numtable\pgfpl
-otstableshared.code.tex
-\c@pgfplotstable@counta=\count132
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsmatrix.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/numtabl
+e\pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count131
 \t@pgfplotstable@a=\toks36
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/liststructure\
-pgfplotsdeque.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsb
-inary.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsb
-inary.data.code.tex))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsu
-til.verb.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/libs\pgflibrar
-ypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count133
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsdeque.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsbinary.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsbinary.data.code.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsutil.verb.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pg
+flibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count132
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/sys\pgflibrary
-pgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsc
-olormap.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsc
-olor.code.tex))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotsstacke
-dplots.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotsplotha
-ndlers.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotsmeshpl
-othandler.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotsmeshpl
-otimage.code.tex)))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplots.scali
-ng.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotscoordp
-rocessing.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplots.error
-bars.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplots.marke
-rs.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotsticks.
-code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplots.paths
-.code.tex)
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibrarydecorations.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulede
-corations.code.tex
-\pgfdecoratedcompleteddistance=\dimen175
-\pgfdecoratedremainingdistance=\dimen176
-\pgfdecoratedinputsegmentcompleteddistance=\dimen177
-\pgfdecoratedinputsegmentremainingdistance=\dimen178
-\pgf@decorate@distancetomove=\dimen179
-\pgf@decorate@repeatstate=\count134
-\pgfdecorationsegmentamplitude=\dimen180
-\pgfdecorationsegmentlength=\dimen181
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgf
+librarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotscolormap.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotscolor.code.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+sstackedplots.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+splothandlers.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+smeshplothandler.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+smeshplotimage.code.tex")))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.scaling.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+scoordprocessing.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.errorbars.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.markers.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+sticks.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.paths.code.tex")
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen177
+\pgfdecoratedremainingdistance=\dimen178
+\pgfdecoratedinputsegmentcompleteddistance=\dimen179
+\pgfdecoratedinputsegmentremainingdistance=\dimen180
+\pgf@decorate@distancetomove=\dimen181
+\pgf@decorate@repeatstate=\count133
+\pgfdecorationsegmentamplitude=\dimen182
+\pgfdecorationsegmentlength=\dimen183
 )
 \tikz@lib@dec@box=\box40
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/decoratio
-ns\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/decoratio
-ns\pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count135
-\pgfplots@xmin@reg=\dimen182
-\pgfplots@xmax@reg=\dimen183
-\pgfplots@ymin@reg=\dimen184
-\pgfplots@ymax@reg=\dimen185
-\pgfplots@zmin@reg=\dimen186
-\pgfplots@zmax@reg=\dimen187
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count134
+\pgfplots@xmin@reg=\dimen184
+\pgfplots@xmax@reg=\dimen185
+\pgfplots@ymin@reg=\dimen186
+\pgfplots@ymax@reg=\dimen187
+\pgfplots@zmin@reg=\dimen188
+\pgfplots@zmax@reg=\dimen189
 )
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrar
-yplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2019/05/09 v3.1.3 (3.1.3)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip50
@@ -630,8 +653,7 @@ s
 \f@nch@O@erf=\skip56
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
-)
-(TP1B.aux
+) (TP1B.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -652,52 +674,65 @@ LaTeX Font Info:    ... okay on input line 59.
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
 
-(C:\Users\Miguel\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
-\scratchdimen=\dimen188
+\scratchcounter=\count135
+\scratchdimen=\dimen190
 \scratchbox=\box41
-\nofMPsegments=\count137
-\nofMParguments=\count138
+\nofMPsegments=\count136
+\nofMParguments=\count137
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count139
-\MPscratchDim=\dimen189
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen191
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks38
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+)
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+("C:\Users\gioxd\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -711,15 +746,13 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
-ABD: EveryShipout initializing macros
+) ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
 [1
 
-{C:/Users/Miguel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(TP1B.toc
+{C:/Users/gioxd/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (TP1B.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -742,69 +775,72 @@ This may cause the page layout to be inconsistent, however.
 <color_img.jpg, id=19, 2910.875pt x 2910.875pt>
 File: color_img.jpg Graphic file (type jpg)
 <use color_img.jpg>
-Package pdftex.def Info: color_img.jpg  used on input line 84.
+Package pdftex.def Info: color_img.jpg  used on input line 86.
 (pdftex.def)             Requested size: 113.81102pt x 113.7946pt.
 <constante.jpg, id=20, 2609.75pt x 2609.75pt>
 File: constante.jpg Graphic file (type jpg)
 <use constante.jpg>
-Package pdftex.def Info: constante.jpg  used on input line 94.
+Package pdftex.def Info: constante.jpg  used on input line 96.
 (pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
 <variable.jpg, id=21, 2710.125pt x 2710.125pt>
 File: variable.jpg Graphic file (type jpg)
 <use variable.jpg>
-Package pdftex.def Info: variable.jpg  used on input line 101.
+Package pdftex.def Info: variable.jpg  used on input line 103.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 109.
+Package pdftex.def Info: logo.png  used on input line 119.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
- [3 <./color_img.jpg> <./constante.jpg> <./variable.jpg>]
+[3 <./color_img.jpg> <./constante.jpg>]
 <variable15.jpg, id=29, 2710.125pt x 2710.125pt>
 File: variable15.jpg Graphic file (type jpg)
 <use variable15.jpg>
-Package pdftex.def Info: variable15.jpg  used on input line 119.
+Package pdftex.def Info: variable15.jpg  used on input line 123.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
 <variable5.jpg, id=30, 2710.125pt x 2710.125pt>
 File: variable5.jpg Graphic file (type jpg)
 <use variable5.jpg>
-Package pdftex.def Info: variable5.jpg  used on input line 126.
+Package pdftex.def Info: variable5.jpg  used on input line 130.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 145.
+Package pdftex.def Info: logo.png  used on input line 141.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
-
-[4 <./variable15.jpg> <./variable5.jpg>]
-<amortiguador_entrada.png, id=35, 586.19pt x 274.02374pt>
+ [4 <./variable.jpg> <./variable15.jpg> <./variable5.jpg>]
+<amortiguador_entrada.png, id=34, 586.19pt x 274.02374pt>
 File: amortiguador_entrada.png Graphic file (type png)
 <use amortiguador_entrada.png>
-Package pdftex.def Info: amortiguador_entrada.png  used on input line 169.
+Package pdftex.def Info: amortiguador_entrada.png  used on input line 173.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
-<amortiguador_10.png, id=36, 586.19pt x 274.02374pt>
+<amortiguador_10.png, id=35, 586.19pt x 274.02374pt>
 File: amortiguador_10.png Graphic file (type png)
 <use amortiguador_10.png>
-Package pdftex.def Info: amortiguador_10.png  used on input line 176.
+Package pdftex.def Info: amortiguador_10.png  used on input line 180.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<discreto.png, id=37, 586.19pt x 274.02374pt>
+<discreto.png, id=36, 586.19pt x 274.02374pt>
 File: discreto.png Graphic file (type png)
 <use discreto.png>
-Package pdftex.def Info: discreto.png  used on input line 183.
+Package pdftex.def Info: discreto.png  used on input line 187.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 198.
+Package pdftex.def Info: logo.png  used on input line 202.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
 [5 <./amortiguador_entrada.png>]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 198.
+Package pdftex.def Info: logo.png  used on input line 202.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
  [6 <./amortiguador_10.png> <./discreto.png>]
 (TP1B.aux
@@ -812,25 +848,28 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 23767 strings out of 492895
- 605114 string characters out of 3133476
- 815910 words of memory out of 3000000
- 27276 multiletter control sequences out of 15000+200000
- 6866 words of font info for 25 fonts, out of 3000000 for 9000
+ 23790 strings out of 492895
+ 608252 string characters out of 3123736
+ 817771 words of memory out of 3000000
+ 27305 multiletter control sequences out of 15000+200000
+ 7471 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,15n,136p,724b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TP1B.pdf (6 pages, 1014201 bytes).
+ 78i,16n,136p,724b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/gioxd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><C:/Users/gioxd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><C:/Users/gioxd/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/gioxd/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gioxd/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+gioxd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b><C:/Users/gioxd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/gioxd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr5.pfb><C:/Users/gioxd/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gioxd/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gioxd/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gioxd/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on TP1B.pdf (6 pages, 1015023 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

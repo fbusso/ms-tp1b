@@ -51,7 +51,7 @@ def fourier(f, k):
     X = 0
     N = len(f)
     for n in range(0, N-1):
-        X += (f[n]*np.e**((-1j*2*np.pi*k*n)/N))
+        X += (f[n]*np.e**((-1j*k*n)))
     return X
 
 # calcula la matriz de espectro
@@ -106,7 +106,7 @@ def guardarImagen(matriz, filename):
 def espectroConstante():
     matriz = []
     n = 0.0
-    k = (2*np.pi)/60
+    k = (2*np.pi)/5
 
     for i in range(0, 28):
         fila = []
@@ -122,12 +122,12 @@ def espectroConstante():
 def espectroVariable():
     matrizEspectroVariable = []
     n = 0.0
-    k = (2*np.pi)/60
+    k = (2*np.pi)/17.75
 
     for i in range(0, 29):
         fila = []
         for j in range(0, 29):
-            fila.append(np.sin(k*n*n))
+            fila.append(np.cos(k*n*n))
             n += 0.1
         matrizEspectroVariable.append(fila)
 
