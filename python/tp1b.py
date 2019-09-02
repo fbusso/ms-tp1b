@@ -60,10 +60,14 @@ def espectro(segmentos):
         return 0.1*abs(fourier(segmentos[i-1], j)) + 0.8* abs(fourier(segmentos[i], j)) + 0.1*abs(fourier(segmentos[i+1], j))
 
     matriz = []
-    for i in range(1, len(segmentos)-1):
+    n = -np.pi
+    N = len(segmentos)-1
+    for i in range(1, N):
         arr = []
-        for j in range(1, len(segmentos)-1):
-            arr.append(E(i, j))
+        for j in range(0, N):
+            arr.append(E(i, n))
+            n += 2*np.pi/N
+
         #sacar comentario para redondear los valores
         #matriz.append(np.round_(arr, 3))
         matriz.append(arr)
@@ -106,11 +110,11 @@ def guardarImagen(matriz, filename):
 def espectroConstante():
     matriz = []
     n = 0.0
-    k = (2*np.pi)/5
+    k = (2*np.pi)/1
 
-    for i in range(0, 28):
+    for i in range(0, 29):
         fila = []
-        for j in range(0, 28):
+        for j in range(0, 29):
             fila.append(np.sin(k*n))
             n += 0.1
         matriz.append(fila)
@@ -122,12 +126,12 @@ def espectroConstante():
 def espectroVariable():
     matrizEspectroVariable = []
     n = 0.0
-    k = (2*np.pi)/17.75
+    k = ((2*np.pi)/17.75)
 
     for i in range(0, 29):
         fila = []
         for j in range(0, 29):
-            fila.append(np.cos(k*n*n))
+            fila.append(np.sin(k*n*n))
             n += 0.1
         matrizEspectroVariable.append(fila)
 
