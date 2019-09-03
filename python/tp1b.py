@@ -1,6 +1,5 @@
 import numpy as np
 from cv2 import imwrite
-from openpyxl import Workbook
 
 # muestrea una funcion f
 def muestrear(funcion, inicio, longitud):
@@ -73,16 +72,6 @@ def espectro(segmentos):
         matriz.append(arr)
 
     return matriz
-
-# guarda la matriz de espectro en una hoja de calculo
-def guardar(matriz, filename):
-    wb = Workbook()
-    ws = wb.active
-
-    for fila in matriz:
-        ws.append(fila)
-
-    wb.save(filename)
 
 def expandir(matriz):
     matriznp = np.matrix(matriz)
