@@ -62,11 +62,12 @@ def espectro(segmentos):
     matriz = []
     n = -np.pi
     N = len(segmentos)-1
+    W = 300
     for i in range(1, N):
         arr = []
-        for j in range(0, N):
+        for j in range(0, W):
             arr.append(E(i, n))
-            n += 2*np.pi/N
+            n += 2*np.pi/W
 
         #sacar comentario para redondear los valores
         #matriz.append(np.round_(arr, 3))
@@ -90,8 +91,8 @@ def expandir(matriz):
     return matrizExpandida
 
 def reescalar(matriz, factor):
-    matrizAux = np.repeat(np.matrix(matriz), factor, axis=1)
-    return np.repeat(matrizAux, factor, axis=0)
+    matrizAux = np.repeat(np.matrix(matriz), factor, axis=0)
+    return np.repeat(matrizAux,factor/10, axis=1)
 
 def guardarImagen(matriz, filename):
     matriz = reescalar(expandir(matriz), 100)
