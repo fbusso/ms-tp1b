@@ -1,11 +1,8 @@
 import numpy as np
-#from funcion import f
+from funcion import f
 import matplotlib
 import matplotlib.pyplot as plt
-f = []
-k = ((2*np.pi)/0.25)
-for n in range(0,300):
-	f.append(np.sin(k*n*n))
+
 
 def fourier(f, k):
     X = 0
@@ -48,11 +45,11 @@ def diferencia(funcionOriginal, funcionTransformada):
 
 
 imagen=0
-for i in range(0,300,10):
+for i in range(0,10,10):
 	N = 30
-	x1 = i
-	x2 = i+30
-	y1 = antitransformada(transformada(f[x1:x2 +1 ],30),x2-x1)
+	x1 = 0
+	x2 = 30
+	y1 = antitransformada(transformada(f[x1:x2+1],30),x2-x1)
 	y2 = antitransformada(transformada(f[x1:x2 +1 ],300),x2-x1)
 	y3 = antitransformada(transformada(f[x1:x2 +1 ],3000),x2-x1)
 	#print(compararResultados(f, y))
@@ -61,7 +58,7 @@ for i in range(0,300,10):
 	for it in range(0,x2-x1):
 		t.append((i*0.1)+(it*0.1))
 
-	fig, [[ax11, ax12, ax13], [ax21, ax22, ax23], [ax31, ax32, ax33]] = plt.subplots(3, 3, sharex=True, figsize=(20,20))
+	fig, [[ax11, ax12, ax13], [ax21, ax22, ax23], [ax31, ax32, ax33]] = plt.subplots(3, 3, sharex=True, figsize=(20,7))
 	ax11.stem(t, y1, linefmt='grey', markerfmt='.', bottom=0, use_line_collection=True)
 	ax12.stem(t, y2, linefmt='grey', markerfmt='.', bottom=0, use_line_collection=True)
 	ax13.stem(t, y3, linefmt='grey', markerfmt='.', bottom=0, use_line_collection=True)
@@ -71,7 +68,7 @@ for i in range(0,300,10):
 	ax23.stem(t, x[x1:x2], linefmt='grey', markerfmt='.', bottom=0, use_line_collection=True)
 
 
-	ax31.stem(t, diferencia(y1,x[x1:x2+1]) , linefmt='black', markerfmt='none', bottom=0, use_line_collection=True)
+	ax31.stem(t, diferencia(y1,x) , linefmt='black', markerfmt='none', bottom=0, use_line_collection=True)
 	ax32.stem(t, diferencia(y2,x[x1:x2+1]) , linefmt='black', markerfmt='none', bottom=0, use_line_collection=True)
 	ax33.stem(t, diferencia(y3,x[x1:x2+1]) , linefmt='black', markerfmt='none', bottom=0, use_line_collection=True)
 
@@ -80,14 +77,14 @@ for i in range(0,300,10):
 	# ax3.grid(True)
 	inicio = i*0.1
 	ax12.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
-	ax11.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
+	ax11.axis([-0.1+inicio,300+inicio,-1.2, 1.2])
 	ax13.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
 	ax22.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
-	ax21.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
+	ax21.axis([-0.1+inicio,300+inicio,-1.2, 1.2])
 	ax23.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
-	ax32.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
-	ax31.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
-	ax33.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
+	# ~ ax32.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
+	# ~ ax31.axis([-0.1+inicio,300+inicio,-1.2, 1.2])
+	# ~ ax33.axis([-0.1+inicio,3+inicio,-1.2, 1.2])
 
 	ax31.title.set_text("Correlación entre las señales")
 	ax21.title.set_text("Señal original")
@@ -99,7 +96,7 @@ for i in range(0,300,10):
 	ax23.title.set_text("Señal original")
 	ax13.title.set_text("Señal reconstruida (discretización: 3000 valores)")
 	#plt.savefig(str(N) + "valores (cada 30 pulsos).jpg")
-	#plt.savefig("./gif/photo" + str(imagen).zfill(4) + ".jpg")
+	plt.savefig("./photo(" + str(x1) +"-"+ str(x2) + ".jpg")
 	plt.show()
 	plt.close()
 	imagen +=1

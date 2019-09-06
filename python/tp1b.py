@@ -101,12 +101,12 @@ def guardarImagen(matriz, filename):
 def espectroConstante():
     matriz = []
     n = 0.0
-    k = (2*np.pi)/1
+    k = (2*np.pi)/0.25
 
     for i in range(0, 29):
         fila = []
         for j in range(0, 29):
-            fila.append(np.sin(k*n))
+            fila.append(np.cos(k*n))
             n += 0.1
         matriz.append(fila)
 
