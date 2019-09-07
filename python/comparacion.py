@@ -96,7 +96,7 @@ for i in range(0,10,10):
 	ax23.title.set_text("Señal original")
 	ax13.title.set_text("Señal reconstruida (discretización: 3000 valores)")
 	#plt.savefig(str(N) + "valores (cada 30 pulsos).jpg")
-	plt.savefig("./photo(" + str(x1) +"-"+ str(x2) + ".jpg")
+	plt.savefig("./photo(" + str(x1) +"-"+ str(x2) + ").jpg")
 	plt.show()
 	plt.close()
 	imagen +=1

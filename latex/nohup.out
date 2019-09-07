@@ -2,3 +2,45 @@
 (evince:11984): GLib-CRITICAL **: 21:08:56.673: g_source_set_ready_time: assertion 'source->priv != NULL' failed
 
 (evince:12077): GLib-CRITICAL **: 21:10:58.855: g_source_set_ready_time: assertion 'source->priv != NULL' failed
+
+** (evince:21236): WARNING **: 00:06:52.496: Error al obtener la información del archivo «/home/miguel/Escritorio/ms-tp1b/latex/TP1B.pdf»: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.532: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.533: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.537: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.537: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+** (evince:21236): WARNING **: 00:06:52.581: Error al establecer los metadatos del archivo: No existe el archivo o el directorio
+
+(evince:21236): Atk-CRITICAL **: 00:06:52.583: atk_object_set_name: assertion 'name != NULL' failed
+
+(evince:21694): GLib-CRITICAL **: 00:13:51.315: g_source_set_ready_time: assertion 'source->priv != NULL' failed
+
+(evince:21988): GLib-CRITICAL **: 00:16:54.673: g_source_set_ready_time: assertion 'source->priv != NULL' failed
+
+(evince:22123): GLib-CRITICAL **: 00:19:02.234: g_source_set_ready_time: assertion 'source->priv != NULL' failed

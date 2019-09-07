@@ -79,63 +79,70 @@
 	        \end{equation}
 	
 	        Donde \textit{M} representa al valor máximo de la Matriz de Espectro y \textit{m} al valor mínimo de la misma.
-	        Esto se realizó para diferenciar gráficamente las frecuencias predominantes (zonas  blancas) 
-	        de las frecuencias que aportan menos energía (zonas negras) a la señal final.
+	        Esto se realizó para diferenciar gráficamente las frecuencias predominantes (zonas  brillantes) 
+	        de las frecuencias que aportan menos energía (zonas oscuras) a la señal final.
 	
 	        \begin{figure}[h!]
 	            \centering
-	            \includegraphics[width=40mm]{color_img}
+	            \includegraphics[width=0.5\textwidth]{./Imagenes/Espectrogramas/estudiada.jpg}
 	            \caption{Representación gráfica de la Matriz de Espectro}
-	            \label{imagen1}
+	            \label{estudiada}
 	        \end{figure}
 	
 	        \paragraph{}
-	        Lo mismo se realizó para una señal simple de frecuencia constante y para una señal con variación de frecuencia lineal.
-	
-	        \begin{figure}[h!]
-	            \centering
-	            \includegraphics[width=40mm]{constante}
-	            \caption{Representacion gráfica de una señal de frecuencia constante}
-	            \label{imagen2}
-	        \end{figure}
-	
-	        \begin{figure}[h!]
-	            \centering
-	            \includegraphics[width=40mm]{variable}
-	            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y_{[n]} = sen(\frac{2\pi}{60}n^2)$}
-	            \label{imagen3}
-	        \end{figure}
-	
+
 	        \paragraph{}
-	        Este procesamiento de los datos fue realizado con el fin de poder analizar más intuitivamente la información presentada, 
+	        Este procesamiento de los datos fue realizado con el fin de poder analizar más intuitivamente la información presentada en la matriz de espectro generada, 
 	        pudiendo así contrastar los diferentes escenarios conocidos contra la señal en estudio e identificar a cuál se asemeja.
+	        
 	\subsection{Análisis de los resultados}
 	        
-	        %Luego de realizado el procesamiento de las imágenes, analizamos distintas funciones con distintas frecuencias y comportamientos para ayudarnos en el análisis de la señal en estudio. 
-		Para ayudarnos en el análisis de la señal en estudio, procesamos de igual manera señales conocidas, para así comparar sus matrices de espectro con la de la señal en estudio. Pudimos conjeturar que los valores presentes en la matriz de espectro representan la concentración de 
-	        energía en determinadas frecuencias de los valores que conforman los segmentos. Además, se pudo concluir que la señal propuesta 
-	        se asemeja a una función que varía linealmente en frecuencia.
-	        
-	        Analizando más en detalle matrices de espectro con funciones de frecuencia linealmente variable, concluimos que a partir del muestreo de distintas funciones se observa un patrón, en el caso de funciones con frecuencias aptas para el muestreo (bajas frecuencias) se observan dos lineas de frecuencias predominantes. 
-	        
-	        
-	          \begin{figure}[h!]
+	        Para analizar la señal propuesta, nos ayudamos de señales conocidas. Para esto se generaron las matrices de espectro para una función de frecuencia constante (figura \ref{constante}) y otra con frecuencia linealmente variable (figura \ref{variable})
+	
+	        \begin{figure}[h!]
 	            \centering
-	            \includegraphics[width=40mm]{variable15}
-	            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y_{[n]}= sen(\frac{2\pi}{15}n^2)$ }
-	            \label{valor15}
-	        \end{figure}
-	        
-	         \begin{figure}[h!]
-	            \centering
-	            \includegraphics[width=40mm]{variable5}
-	            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y_{[n]} = sen(\frac{2\pi}{5}n^2)$ }
-	            \label{valor5}
+	            \includegraphics[width=0.5\textwidth]{./Imagenes/Espectrogramas/constante.jpg}
+	            \caption{Representacion gráfica de una señal de frecuencia constante}
+	            \label{constante}
 	        \end{figure}
 	
-	Se puede observar desde la figura \ref{imagen3} hasta la \ref{valor5}, que a medida que aumentamos la frecuencia, las lineas predominantes se interceptan. En las imágenes \ref{valor15} y \ref{valor5} se produce alliasing por el efectodel muestreo de seales de alta frecuencia. por lo tanto analizando la matriz de espectro de la señal en estudio podemos determinar que se produce alliasing y en consecuencia la discretización de la señal no fue buena.
+	        \begin{figure}[h!]
+	            \centering
+	            \includegraphics[width=0.5\textwidth]{./Imagenes/Espectrogramas/variable.jpg}
+	            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y_{[n]} = sen(\frac{2\pi}{17.75}n^2)$}
+	            \label{variable}
+	        \end{figure}
+	
 
-\section{Sistema masa-resorte-amortiguador discreto}
+\subsection{Determinación de la calidad de la discretización de $\omega$}
+En una primer instancia se había elegido discretizar el dominio frecuencial en 30 valores equidistanciados entre $-\pi$ y $\pi$, debido a la periodicidad de la transformada de Fourier de tiempo discreto.
+Para definir si nuestra primer discretización de $\omega$ nos provee de una aproximación suficientemente buena para analizar los espectrogramas decidimos aumentar en uno y dos órdenes de magnitud la primer discretización.
+
+Estas diferentes discretizaciones se comparan en la figura \ref{comparacion} y lo que se puede observar a simple vista es que no existen comportamientos extraños en ninguna discretización, por lo que la primer
+ elección de 30 valores ya nos brindaba una buena aproximación a lo que estaba sucediendo en la función original.
+
+	         \begin{figure}[h!]
+	            \centering
+	            \includegraphics[width=\textwidth]{./Imagenes/Espectrogramas/merge.jpg}
+	            \caption{Comparación de los espectrogramas  discretizando $\omega$ en 30, 300 y 3000 valores}
+	            \label{comparacion}
+	        \end{figure}
+	    
+De todas maneras se puede pensar que una discretización de 3000 valores no es lo suficientemente buena como para tener una idea de lo que sucede en la función estudiada, es por esto que se desarrolló la antitransformada
+a partir de las discretizaciónes de $\omega$, las cuales se comparan en el primer segmento de 30 muestras (ya que este es el largo de una muestra del espectrograma).
+	         \begin{figure}[h!]
+	            \centering
+	            \includegraphics[width=\textwidth]{./Imagenes/antitransformada/comparacion.jpg}
+	            \caption{Reconstrucción de la señal original a partir de las discretizaciones de $\omega$}
+	            \label{recreacion}
+	        \end{figure}
+En la figura \ref{recreacion} se puede observar las comparaciones entre las señales recontruidas, si bien se observa que una discretización de $\omega$ en 30 valores no es suficiente para reconstruir la señal original,
+a nuestro parecer es una discretización que provee una vaga idea de las frecuencias predominantes en la señal estudiada y es por esto que los espectrogramas de la figura \ref{comparacion} son muy similares.
+
+La reconstrucción de la señal a partir de una discretización de $\omega$ en 3000 valores es una reconstrucción muy fiel a la señal original (con un error $<1\%$), por lo que se puede decir con bastante certeza que el espectrograma generado a partir de dicha discretización es representativo de la señal en estudio.
+Así mismo, como observamos que los espectrogramas de 30 y 3000 valores de discretización son similares, podemos decir entonces que nuestra primer discretización (en 30 valores) era lo suficientemente buena para analizar la señal y compararla con otras señales.
+	        
+\newpage \section{Sistema masa-resorte-amortiguador discreto}
 
 Como contrapartida de la ecuación diferencial que modela el comportamiento del sistema en estudio, se desarrolla la ecuación en diferencias contemplando las siguientes aproximaciones:
 
@@ -167,31 +174,43 @@ $$ k_1 =1$$
 $$k_2 =10$$
 $$k_3=1$$
 
-De esta manera contrastar la respuesta del sistema contínuo y la discretización resultante en este ejercicio.
+A partir de los valores elegidos la función de transferencia queda de la siguiente manera:
+
+$$H_{(z)} = \frac{1}{50 z^{-1} - 190 + 150 z^{2}}$$
+
+Utilizando el software xcos de scilab simulamos la respuesta del sistema utilizando transformada de laplace (sistema contínuo) para luego simular el sistema con la discretización definida y comparar los resultados.
 
         \begin{figure}[h!]
             \centering
-            \includegraphics[width=0.7\textwidth]{amortiguador_entrada.png}
-            \caption{Entrada del sistema.}
-            \label{entrada}
+            \includegraphics[width=0.7\textwidth]{./Imagenes/Simulaciones/entradaContinua.png}
+            \caption{Entrada al sistema contínuo.}
+            \label{entradaContinua}
+        \end{figure}
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.7\textwidth]{./Imagenes/Simulaciones/entradaDiscreta.png}
+            \caption{Entrada al sistema discreto.}
+            \label{entradaDiscreta}
         \end{figure}
         
          \begin{figure}[h!]
             \centering
-            \includegraphics[width=0.7\textwidth]{amortiguador_10}
+            \includegraphics[width=0.7\textwidth]{./Imagenes/Simulaciones/salidaContinua.png}
             \caption{Salida resultante de simular el sistema con un sistema LTI contínuo.}
-            \label{sistemaContinuo}
+            \label{salidaContinua}
         \end{figure}
         
               \begin{figure}[h!]
             \centering
-            \includegraphics[width=0.7\textwidth]{discreto.png}
+            \includegraphics[width=0.7\textwidth]{./Imagenes/Simulaciones/salidaDiscreta.png}
             \caption{Salida resultante de simular el sistema con un sistema LTI discreto.}
-            \label{sistemaDiscreto}
+            \label{salidaDiscreta}
         \end{figure}
 
-Como se observan en las imágenes, la discretización elegida no resulta útil para el estudio del sistema, ya que no existe una clara relación con su contraparte contínua. Esto deja en evidencia que el muestreo elegido no fue adecuado. Posiblemente se logren mejores aproximaciones utilizando frecuencias de muestreo mayores.
 
+Como se puede observar de las gráficas obtenidas, la discretización del sistema con un intervalo de muestreo de $0,1$ segundos resulta en una muy buena discretización para el sistema en estudio.
+No observandose una diferencia entre las salidas de los sistemas contínuo y discreto.
 
 
 
