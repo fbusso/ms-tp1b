@@ -1,0 +1,4 @@
+
+(evince:11984): GLib-CRITICAL **: 21:08:56.673: g_source_set_ready_time: assertion 'source->priv != NULL' failed
+
+(evince:12077): GLib-CRITICAL **: 21:10:58.855: g_source_set_ready_time: assertion 'source->priv != NULL' failed
