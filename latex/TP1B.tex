@@ -65,9 +65,16 @@
 \tableofcontents
 \newpage
 
-    \section{Transformada Discreta}
-	\subsection{Visualización de la matriz}
+	\section{Transformada Discreta}
+		\subsection{Consideraciones previas}
+			\paragraph{}
+			Se consideró que la consigna de trasladar los segmentos al origen temporal colocaba a los segmentos en el origen de coordenadas. En la retroalimentación de
+			la entrega se nos informó del error y se construyeron nuevamente las matrices de espectro, con los segmenos colocados de manera solicitada. Dado que los resultados
+			obtenidos con estas nuevas matrices fueron significativamente similares a los resultados anteriores, el informe se desarrolla con las matrices construidas en primera
+			instancia.
 
+
+		\subsection{Visualización de la matriz}
 	        \paragraph{}
 	        Una vez separada la función en segmentos y calculadas las Transformadas de Fourier en Tiempo Discreto de cada uno, 
 	        se construyó la Matriz de Espectro E utilizando la formula propuesta. Posteriormente se determinaron los valores máximo y mínimo de dicha matriz 
@@ -104,7 +111,7 @@
 	        \begin{figure}[h!]
 	            \centering
 	            \includegraphics[width=0.5\textwidth]{./Imagenes/Espectrogramas/constante.jpg}
-	            \caption{Representacion gráfica de una señal de frecuencia constante}
+	            \caption{Representación gráfica de una señal de frecuencia constante}
 	            \label{constante}
 	        \end{figure}
 	
@@ -117,7 +124,7 @@
 	De un análisis más profundo (el cual no se desarrolla) podemos determinar a su vez que la señal en estudio presenta un solapamiento de frecuencias mas altas que las capaces de recontruir a partir del muestreo dado.
 	Este solapamiento se produce en los segmentos en los que las lineas de frecuencias predominantes “rebotan” contra los laterales de la matriz de espectro.
 	
-	Si bien siempre que se produzca un solapamiento se verá este “rebote”, la precencia del mismo no implica la existencia de solapamiento
+	Si bien siempre que se produzca un solapamiento se verá este “rebote”, la presencia del mismo no implica la existencia de solapamiento
 	 ya que la señal puede llegar al máximo de frecuencia posible y luego comenzar a disminuir la frecuencia, lo cual produciría el mismo “rebote”
 	  en la matriz pero no sería una señal con el mismo comportamiento.
 
@@ -136,7 +143,7 @@ Estas diferentes discretizaciones se comparan en la figura \ref{comparacion} y l
 	        \end{figure}
 	    
 De todas maneras se puede pensar que una discretización de 3000 valores no es lo suficientemente buena como para tener una idea de lo que sucede en la función estudiada, es por esto que se desarrolló la antitransformada
-a partir de las discretizaciónes de $\omega$, las cuales se comparan en el primer segmento de 30 muestras (ya que este es el largo de una muestra del espectrograma).
+a partir de las discretizaciones de $\omega$, las cuales se comparan en el primer segmento de 30 muestras (ya que este es el largo de una muestra del espectrograma).
 	         \begin{figure}[h!]
 	            \centering
 	            \includegraphics[width=\textwidth]{./Imagenes/antitransformada/comparacion.jpg}
