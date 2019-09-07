@@ -97,7 +97,9 @@
 	        
 	\subsection{Análisis de los resultados}
 	        
-	        Para analizar la señal propuesta, nos ayudamos de señales conocidas. Para esto se generaron las matrices de espectro para una función de frecuencia constante (figura \ref{constante}) y otra con frecuencia linealmente variable (figura \ref{variable})
+	        Para analizar la señal propuesta, nos ayudamos de señales conocidas. Para esto se generaron las matrices de espectro para una función de frecuencia constante (figura \ref{constante}) y otra con frecuencia linealmente variable (figura \ref{variable}).
+	        A partir de la comparación de la matriz de espectro de la señal en estudio y la matriz de una señal con frecuencia linealmente variable podemos decir que la señal estudiada tiene un comportamiento similar (pero no igual) a una señal con frecuencia variable.
+	        
 	
 	        \begin{figure}[h!]
 	            \centering
@@ -112,7 +114,12 @@
 	            \caption{Representación gráfica de una señal con variación de frecuencia lineal $y_{[n]} = sen(\frac{2\pi}{17.75}n^2)$}
 	            \label{variable}
 	        \end{figure}
+	De un análisis más profundo (el cual no se desarrolla) podemos determinar a su vez que la señal en estudio presenta un solapamiento de frecuencias mas altas que las capaces de recontruir a partir del muestreo dado.
+	Este solapamiento se produce en los segmentos en los que las lineas de frecuencias predominantes “rebotan” contra los laterales de la matriz de espectro.
 	
+	Si bien siempre que se produzca un solapamiento se verá este “rebote”, la precencia del mismo no implica la existencia de solapamiento
+	 ya que la señal puede llegar al máximo de frecuencia posible y luego comenzar a disminuir la frecuencia, lo cual produciría el mismo “rebote”
+	  en la matriz pero no sería una señal con el mismo comportamiento.
 
 \subsection{Determinación de la calidad de la discretización de $\omega$}
 En una primer instancia se había elegido discretizar el dominio frecuencial en 30 valores equidistanciados entre $-\pi$ y $\pi$, debido a la periodicidad de la transformada de Fourier de tiempo discreto.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.6)  7 SEP 2019 01:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.6)  7 SEP 2019 01:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: ./Imagenes/Espectrogramas/estudiada.jpg  used on input
 File: ./Imagenes/Espectrogramas/constante.jpg Graphic file (type jpg)
 <use ./Imagenes/Espectrogramas/constante.jpg>
 Package pdftex.def Info: ./Imagenes/Espectrogramas/constante.jpg  used on input
- line 104.
+ line 106.
 (pdftex.def)             Requested size: 213.71576pt x 192.33337pt.
 
 
@@ -1028,7 +1028,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./Imagenes/Espectrogramas/variable.jpg Graphic file (type jpg)
 <use ./Imagenes/Espectrogramas/variable.jpg>
 Package pdftex.def Info: ./Imagenes/Espectrogramas/variable.jpg  used on input 
-line 111.
+line 113.
 (pdftex.def)             Requested size: 213.71576pt x 192.33337pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1044,28 +1044,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3 <./Imagenes/Espectrogramas/estudiada.jpg>]
-<./Imagenes/Espectrogramas/merge.jpg, id=31, 1445.4pt x 1445.4pt>
+<./Imagenes/Espectrogramas/merge.jpg, id=30, 1445.4pt x 1445.4pt>
 File: ./Imagenes/Espectrogramas/merge.jpg Graphic file (type jpg)
 <use ./Imagenes/Espectrogramas/merge.jpg>
 Package pdftex.def Info: ./Imagenes/Espectrogramas/merge.jpg  used on input lin
-e 126.
+e 133.
 (pdftex.def)             Requested size: 427.43153pt x 427.42589pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Imagenes/antitransformada/comparacion.jpg, id=32, 1445.4pt x 505.89pt>
+<./Imagenes/antitransformada/comparacion.jpg, id=31, 1445.4pt x 505.89pt>
 File: ./Imagenes/antitransformada/comparacion.jpg Graphic file (type jpg)
 <use ./Imagenes/antitransformada/comparacion.jpg>
 Package pdftex.def Info: ./Imagenes/antitransformada/comparacion.jpg  used on i
-nput line 135.
+nput line 142.
 (pdftex.def)             Requested size: 427.43153pt x 149.59904pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 145.
+Package pdftex.def Info: logo.png  used on input line 148.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1075,13 +1072,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4 <./Imagenes/Espectrogramas/constante.jpg> <./Imagenes/Espectrogramas/variabl
 e.jpg>]
-
-LaTeX Warning: Text page 5 contains only floats.
-
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 145.
+Package pdftex.def Info: logo.png  used on input line 148.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 18.11427pt.
@@ -1092,7 +1087,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 on.jpg>]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 145.
+Package pdftex.def Info: logo.png  used on input line 152.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
 
 
@@ -1106,7 +1101,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./Imagenes/Simulaciones/entradaContinua.png Graphic file (type png)
 <use ./Imagenes/Simulaciones/entradaContinua.png>
 Package pdftex.def Info: ./Imagenes/Simulaciones/entradaContinua.png  used on i
-nput line 185.
+nput line 192.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
 
 
@@ -1116,7 +1111,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./Imagenes/Simulaciones/entradaDiscreta.png Graphic file (type png)
 <use ./Imagenes/Simulaciones/entradaDiscreta.png>
 Package pdftex.def Info: ./Imagenes/Simulaciones/entradaDiscreta.png  used on i
-nput line 192.
+nput line 199.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1125,7 +1120,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./Imagenes/Simulaciones/salidaContinua.png Graphic file (type png)
 <use ./Imagenes/Simulaciones/salidaContinua.png>
 Package pdftex.def Info: ./Imagenes/Simulaciones/salidaContinua.png  used on in
-put line 199.
+put line 206.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1134,14 +1129,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./Imagenes/Simulaciones/salidaDiscreta.png Graphic file (type png)
 <use ./Imagenes/Simulaciones/salidaDiscreta.png>
 Package pdftex.def Info: ./Imagenes/Simulaciones/salidaDiscreta.png  used on in
-put line 206.
+put line 213.
 (pdftex.def)             Requested size: 299.20076pt x 139.86314pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 222.
+Package pdftex.def Info: logo.png  used on input line 229.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1152,7 +1147,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [7]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 222.
+Package pdftex.def Info: logo.png  used on input line 229.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
 
 
@@ -1165,7 +1160,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 daDiscreta.png> <./Imagenes/Simulaciones/salidaContinua.png>]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 222.
+Package pdftex.def Info: logo.png  used on input line 229.
 (pdftex.def)             Requested size: 91.04872pt x 14.51424pt.
 
 
@@ -1177,32 +1172,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [9 <./Imagenes/Simulaciones/salidaDiscreta.png>] (./TP1B.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 23651 strings out of 494861
- 595135 string characters out of 6178805
+ 23649 strings out of 494861
+ 595118 string characters out of 6178805
  794826 words of memory out of 5000000
- 26552 multiletter control sequences out of 15000+600000
+ 26550 multiletter control sequences out of 15000+600000
  10583 words of font info for 38 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  74i,15n,128p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TP1B.pdf (9 pages, 3244678 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on TP1B.pdf (9 pages, 3245889 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
