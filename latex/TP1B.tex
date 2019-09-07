@@ -169,7 +169,7 @@ siendo $T$ el tiempo entre muestras. Si bien no es posible interpretar la deriva
 
 Por lo tanto, para aproximar la ecuación diferencial que simula al sistema del amortiguador, debemos reemplazar todas las apariciones de $y'$ e $y''$.
 
-Siendo el sistema contínuo del amortiguador:
+Siendo el sistema continuo del amortiguador:
 
 $$k_3 y''_{(t)} + k_2 y'_{(t)} + k_1 y_{(t)} = x_{(t)}$$
 
@@ -177,7 +177,7 @@ Nos queda que la ecuación en diferencia que aproxima al modelado continuo del s
 
 $$k_1 y_{[n]} + k_2 \left(\frac{y_{[n+1]}-y_{[n-1]}}{2T}\right) + k_3 \left(\frac{y_{[n+]1} - 2 y_{[n]} + y_{[n-1]}}{T^2}\right)= x_{[n]}$$
 
-A partir de esta ecuación en diferencias se puede calcular la función de tranferencia del sistema, quedando la misma:
+A partir de esta ecuación en diferencias se puede calcular la función de transferencia del sistema, quedando la misma:
 
 $$H_{(z)} = \frac{1}{\left(\frac{k_3}{T^2} - \frac{k_2}{2T}\right) z^{-1} + \left(k_1-\frac{2k_3}{T^2}\right) + \left(\frac{k_2}{2T} + \frac{k_3}{T^2}\right) z} $$
 
@@ -192,7 +192,7 @@ A partir de los valores elegidos la función de transferencia queda de la siguie
 
 $$H_{(z)} = \frac{1}{50 z^{-1} - 190 + 150 z^{2}}$$
 
-Utilizando el software xcos de scilab simulamos la respuesta del sistema utilizando transformada de laplace (sistema contínuo) para luego simular el sistema con la discretización definida y comparar los resultados.
+Utilizando el software xcos de scilab simulamos la respuesta del sistema utilizando transformada de Laplace (sistema contínuo) para luego simular el sistema con la discretización definida y comparar los resultados.
 
         \begin{figure}[h!]
             \centering
@@ -224,7 +224,7 @@ Utilizando el software xcos de scilab simulamos la respuesta del sistema utiliza
 
 
 Como se puede observar de las gráficas obtenidas, la discretización del sistema con un intervalo de muestreo de $0,1$ segundos resulta en una muy buena discretización para el sistema en estudio.
-No observandose una diferencia entre las salidas de los sistemas contínuo y discreto.
+No observándose una diferencia entre las salidas de los sistemas contínuo y discreto.
 
 
 
